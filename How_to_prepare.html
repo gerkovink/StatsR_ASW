@@ -305,57 +305,36 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">How to prepare</h1>
 <h4 class="author"><em>Gerko Vink</em></h4>
-<h4 class="date"><em>Statistical Programming with R</em></h4>
+<h4 class="date"><em>R Course: 2-4 July 2018</em></h4>
 
 </div>
 
 
 <hr />
-<p>Dear all,</p>
-<p>This summer you will participate in the <strong>Statistical Programming with R</strong> course in Utrecht, the Netherlands. To realize a steeper learning curve, we will use some functionality that is not part of the base installation for <code>R</code>. The below steps guide you through installing both <code>R</code> as well as the necessary additions.</p>
-<p>We look forward to see you all in Utrecht,</p>
-<p><em>The Statistical Programming with R Team</em></p>
-<hr />
-<div id="steps-to-prepare" class="section level4">
-<h4>Steps to prepare:</h4>
+<p>Next week you will participate in the short introductory course to <code>R</code>. To realize a steeper learning curve, we will use some functionality that is not part of the standard installation for <code>R</code>. The below steps guide you through installing both <code>R</code> as well as the necessary additions.</p>
 <hr />
 <ol style="list-style-type: decimal">
-<li><strong>Install <code>R</code></strong> <code>R</code> can be obtained <a href="https://cran.r-project.org">here</a>. We won’t use <code>R</code> directly in the course, but rather call <code>R</code> through <code>RStudio</code>. Therefore it needs to be installed.</li>
+<li><strong>Install <code>R</code></strong> <code>R</code> can be obtained <a href="https://cran.r-project.org">here</a>, but is also available through <a href="https://myworkplace.uu.nl">MyWorkplace</a>. We won’t use <code>R</code> directly in the course, but rather call <code>R</code> through <code>RStudio</code>. Therefore it needs to be installed.</li>
 </ol>
 <hr />
 <ol start="2" style="list-style-type: decimal">
 <li><strong>Install <code>RStudio</code> Desktop</strong></li>
 </ol>
-<p>Rstudio is an Integrated Development Environment (IDE). It can be obtained as stand-alone software <a href="https://www.rstudio.com/products/RStudio/">here</a>.</p>
+<p>Rstudio is an Integrated Development Environment (IDE). It can be obtained as stand-alone software <a href="https://www.rstudio.com/products/RStudio/">here</a>, but is also available through <a href="https://myworkplace.uu.nl">MyWorkplace</a>.</p>
 <hr />
 <ol start="3" style="list-style-type: decimal">
 <li><strong>Install package <code>mice</code>. </strong></li>
 </ol>
-<p>Go to <code>Tools</code> &gt; <code>Install Packages</code> in <code>RStudio</code>. Make sure that you are connected to the internet and select <code>Repository</code> under <code>Install From</code> and type <code>mice</code> under <code>Packages</code>. Leave the <code>Install to Library</code> at default and verify that <code>Install Dependencies</code> is selected. Click install.</p>
-<p>Some packages depend on other packages, meaning that their functionality may be limited if their dependencies are not installed. Installing dependencies is therefore recommended.</p>
+<p>Go to <code>Tools</code> &gt; <code>Install Packages</code> in <code>RStudio</code>. If you are connected to the internet, select <code>Repository</code> under <code>Install From</code> and type <code>mice</code> under <code>Packages</code>. Leave the <code>Install to Library</code> at default and make sure that <code>Install Dependencies</code> is selected. Click install.</p>
+<p>Some packages depend on other packages, meaning that their functionality may be limited if their dependencies are not installed. Installing dependencies is therefore recommended, but internet connectivity is required.</p>
 <p>If all is right, you will receive a message in the console that the package has been installed (with its dependencies).</p>
-<p>Alternatively, if you know the name of the package you would like to install - in this case <code>mice</code> - you can also call <code>install.packages(&quot;mice&quot;)</code> in the console window.</p>
+<p>ALternatively, if you know the name of the package you would like to install - in this case <code>mice</code> - you can also call <code>install.packages(&quot;mice&quot;)</code> in the console window.</p>
 <hr />
 <ol start="4" style="list-style-type: decimal">
-<li><strong>Install also the following packages by executing the below code in the <code>R</code> console window:</strong></li>
+<li><strong>Install packages <code>dplyr</code>, <code>magrittr</code> and <code>ggplot2</code>.</strong></li>
 </ol>
-<pre class="r"><code>install.packages(&quot;knitr&quot;)
-install.packages(&quot;rmarkdown&quot;)
-install.packages(&quot;plotly&quot;)
-install.packages(&quot;ggplot2&quot;)
-install.packages(&quot;shiny&quot;)
-install.packages(&quot;devtools&quot;)
-install.packages(&quot;tidyverse&quot;)
-install.packages(&quot;magrittr&quot;)
-install.packages(&quot;boot&quot;)
-install.pacakges(&quot;class&quot;)
-install.packages(&quot;car&quot;)
-install.packages(&quot;MASS&quot;)
-install.packages(&quot;ggplot2movies&quot;)
-install.packages(&quot;ISLR&quot;)
-install.packages(&quot;DAAG&quot;)</code></pre>
 <hr />
-</div>
+<p>See you next week - Gerko</p>
 
 
 
