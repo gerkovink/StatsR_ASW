@@ -1,0 +1,85 @@
+---
+title: "Statistical Programming with R"
+author: 
+date: 
+output: html_document
+---
+
+<style>
+.column-left{
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+.column-center{
+  display: inline-block;
+  width: 33%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 33%;
+  text-align: left;
+}
+.span-wide{
+  float: right;
+  width: 100%;
+  text-align: left;
+}
+</style>
+
+
+---
+
+This is the course page for the *crash* course **Statistical programming with R** for **ASW**. All course materials can be obtained from this site. 
+
+---
+
+#### Preparing your machine for the course
+We use `R`, `RStudio` and a variety of packages in this course. You can find a detailed guide to install the necessary software on your own laptop in [this guide](How_to_prepare.html)
+
+If you experience terribly slow interactions with `R` on your `UU laptop`, please follow the guide [`Install R on UU laptop`](https://gist.github.com/vankesteren/f2e198aa5ab4f6262b21a3d13bbea0b5) to properly install and configure `R`. With thanks to Erik-Jan van Kesteren.
+
+---
+
+#### Course Materials
+
+---
+
+<div class="column-left">
+##### Day 1: Monday
+- Part A: Introduction
+    - [Lecture A](Part A - Introduction/Lecture_A.html)
+    - [Practical A](Part A - Introduction/Practical_A_walkthrough.html)
+    - [`notebook.R`](Part A - Introduction/notebook.R)
+- Part B: Working with `R`
+    - [Lecture B](Part B - How is R organized/Lecture_B.html)
+    - [Practical B](Part B - How is R organized/Practical_B_walkthrough.html)
+    - [`boys.RData`](Part B - How is R organized/boys.RData)
+</div>
+
+<div class="column-center">
+##### Day 2: Tuesday
+- Part C: Data manipulation and Pipes
+    - [Lecture C](Part C - Pipes/Lecture_C.html)
+    - [Practical C](Part C - Pipes/Practical_C_walkthrough.html)
+- Part D: Data Visualization
+    - [Lecture D](Part D - Data visualization/Lecture_D.html)
+    - [Practical D](Part D - Data visualization/Practical_D_walkthrough.html)
+</div>
+    
+
+<div class="column-right">
+##### Day 3: Wednesday
+- Part E: Statistical modeling
+    - [Lecture E](Part E - Model estimation/Lecture_E.html)
+    - [Practical E](Part E - Model estimation/Practical_E_walkthrough.html)
+</div>
+
+
+<div class="span-wide">
+
+---
+
+</div>
+
