@@ -197,7 +197,7 @@ boys %>% cor(use = "pairwise.complete.obs")
 ```
 - `h(g(f(x)))` becomes `x %>% f %>% g %>% h` 
 ```{r}
-boys %>% subset(select = wgt) %>% na.omit() %>% max()
+boys %>% subset(select = wgt) %>% na.omit %>% max
 ```
 
 ## The standard `%>%` pipe
