@@ -69,7 +69,7 @@ Output:
     -  Multiple R-squared (proportion variance explained)
     -  F-statistic and $p$-value (significance test model)
 
-##  `boys` example {.smaller}
+##  `anscombe` example {.smaller}
 ```{r message=FALSE, warning = FALSE}
 fit <- anscombe %$%
   lm(y1 ~ x1)
